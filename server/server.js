@@ -17,6 +17,10 @@ app.get("/",(req,res)=>{
     res.send("Hello from the server side")
 })
 
+app.get("/",(req,res)=>{
+    res.send("Hello from the server side")
+})
+
 app.listen(port,()=>{
     console.log(`Server is running on ${port}`);
 })
